@@ -18,10 +18,10 @@ var MyComp=React.createClass({
 	},
 	render:function(){
 		return (
-			<div>
+			<div className="form-inline">
 				<MyUl items={this.state.items}></MyUl>
-				<input onChange={this.onChange} value={this.state.inputText}/>
-				<button onClick={this.onClick}>添加</button>
+				<input onChange={this.onChange} value={this.state.inputText} className="form-control"/>
+				<button className="btn btn-success" onClick={this.onClick}>添加</button>
 			</div>
 		);
 	}
