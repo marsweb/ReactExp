@@ -8,7 +8,7 @@ var MyUl=React.createClass({
 });
 var MyComp=React.createClass({
 	getInitialState:function(){
-		return {items:["on1","on2"],inputText:""};
+		return {items:["打扫卫生","洗衣服"],inputText:""};
 	},
 	onChange:function(e){
 		this.setState({inputText:e.target.value});
